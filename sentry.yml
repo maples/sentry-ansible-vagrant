@@ -13,6 +13,7 @@
       server: sentry.local
       url: http://sentry.local
       secret_key: 'my69eAMYjzqtmfaRJ107MeXCYDTaxQdNZPr8YOf/zOV5pIUoZa5biA=='
+      admin_email: 'root@localhost'
   roles:
     - common
     - python
@@ -21,4 +22,3 @@
       nginx_sites: none
     - postgres
     - sentry
-
